@@ -1,0 +1,23 @@
+--cpu Cortex-M4.fp
+"led configuration\system_stm32f4xx.o"
+"led configuration\stm32f4xx_hal_rcc_ex.o"
+"led configuration\stm32f4xx_hal_dma_ex.o"
+"led configuration\stm32f4xx_hal_rcc.o"
+"led configuration\stm32f4xx_hal_flash.o"
+"led configuration\stm32f4xx_hal_flash_ex.o"
+"led configuration\stm32f4xx_hal_gpio.o"
+"led configuration\stm32f4xx_hal_pwr.o"
+"led configuration\stm32f4xx_hal.o"
+"led configuration\stm32f4xx_hal_dma.o"
+"led configuration\stm32f4xx_hal_flash_ramfunc.o"
+"led configuration\stm32f4xx_hal_pwr_ex.o"
+"led configuration\stm32f4xx_hal_cortex.o"
+"led configuration\main.o"
+"led configuration\stm32f4xx_hal_msp.o"
+"led configuration\stm32f4xx_it.o"
+"led configuration\startup_stm32f401xc.o"
+--library_type=microlib --strict --scatter "led Configuration\led Configuration.sct"
+
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "led Configuration.map" -o "led Configuration\led Configuration.axf"

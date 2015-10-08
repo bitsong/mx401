@@ -1,0 +1,24 @@
+--cpu Cortex-M4.fp
+"usart2 configuration\startup_stm32f401xc.o"
+"usart2 configuration\stm32f4xx_hal_uart.o"
+"usart2 configuration\stm32f4xx_hal_dma.o"
+"usart2 configuration\stm32f4xx_hal_dma_ex.o"
+"usart2 configuration\stm32f4xx_hal_rcc_ex.o"
+"usart2 configuration\stm32f4xx_hal_flash.o"
+"usart2 configuration\stm32f4xx_hal_rcc.o"
+"usart2 configuration\stm32f4xx_hal_cortex.o"
+"usart2 configuration\stm32f4xx_hal_flash_ramfunc.o"
+"usart2 configuration\stm32f4xx_hal_gpio.o"
+"usart2 configuration\stm32f4xx_hal_flash_ex.o"
+"usart2 configuration\stm32f4xx_hal_pwr_ex.o"
+"usart2 configuration\stm32f4xx_hal_pwr.o"
+"usart2 configuration\stm32f4xx_hal.o"
+"usart2 configuration\stm32f4xx_hal_msp.o"
+"usart2 configuration\main.o"
+"usart2 configuration\stm32f4xx_it.o"
+"usart2 configuration\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "usart2 Configuration\usart2 Configuration.sct"
+
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "usart2 Configuration.map" -o "usart2 Configuration\usart2 Configuration.axf"

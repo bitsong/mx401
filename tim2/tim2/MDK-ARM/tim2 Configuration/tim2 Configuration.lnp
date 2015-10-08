@@ -1,0 +1,25 @@
+--cpu Cortex-M4.fp
+"tim2 configuration\stm32f4xx_hal_gpio.o"
+"tim2 configuration\stm32f4xx_hal_flash_ramfunc.o"
+"tim2 configuration\stm32f4xx_hal_pwr_ex.o"
+"tim2 configuration\stm32f4xx_hal_tim_ex.o"
+"tim2 configuration\stm32f4xx_hal_pwr.o"
+"tim2 configuration\stm32f4xx_hal_cortex.o"
+"tim2 configuration\stm32f4xx_hal.o"
+"tim2 configuration\stm32f4xx_hal_flash_ex.o"
+"tim2 configuration\stm32f4xx_hal_tim.o"
+"tim2 configuration\stm32f4xx_hal_rcc_ex.o"
+"tim2 configuration\stm32f4xx_hal_rcc.o"
+"tim2 configuration\stm32f4xx_hal_dma_ex.o"
+"tim2 configuration\stm32f4xx_hal_dma.o"
+"tim2 configuration\stm32f4xx_hal_flash.o"
+"tim2 configuration\stm32f4xx_hal_msp.o"
+"tim2 configuration\stm32f4xx_it.o"
+"tim2 configuration\main.o"
+"tim2 configuration\system_stm32f4xx.o"
+"tim2 configuration\startup_stm32f401xc.o"
+--library_type=microlib --strict --scatter "tim2 Configuration\tim2 Configuration.sct"
+
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "tim2 Configuration.map" -o "tim2 Configuration\tim2 Configuration.axf"
