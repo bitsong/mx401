@@ -1,0 +1,15 @@
+rtosdemo configuration\queue.o: ..\FreeRTOS\queue.c
+rtosdemo configuration\queue.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+rtosdemo configuration\queue.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+rtosdemo configuration\queue.o: ..\FreeRTOS\include\FreeRTOS.h
+rtosdemo configuration\queue.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+rtosdemo configuration\queue.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+rtosdemo configuration\queue.o: ..\Inc\FreeRTOSConfig.h
+rtosdemo configuration\queue.o: ..\FreeRTOS\include\projdefs.h
+rtosdemo configuration\queue.o: ..\FreeRTOS\include\portable.h
+rtosdemo configuration\queue.o: ..\FreeRTOS\include\deprecated_definitions.h
+rtosdemo configuration\queue.o: ..\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h
+rtosdemo configuration\queue.o: ..\FreeRTOS\include\mpu_wrappers.h
+rtosdemo configuration\queue.o: ..\FreeRTOS\include\task.h
+rtosdemo configuration\queue.o: ..\FreeRTOS\include\list.h
+rtosdemo configuration\queue.o: ..\FreeRTOS\include\queue.h

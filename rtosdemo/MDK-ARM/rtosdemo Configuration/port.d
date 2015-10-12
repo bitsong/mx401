@@ -1,0 +1,12 @@
+rtosdemo configuration\port.o: ..\FreeRTOS\portable\RVDS\ARM_CM4F\port.c
+rtosdemo configuration\port.o: ..\FreeRTOS\include\FreeRTOS.h
+rtosdemo configuration\port.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+rtosdemo configuration\port.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+rtosdemo configuration\port.o: ..\Inc\FreeRTOSConfig.h
+rtosdemo configuration\port.o: ..\FreeRTOS\include\projdefs.h
+rtosdemo configuration\port.o: ..\FreeRTOS\include\portable.h
+rtosdemo configuration\port.o: ..\FreeRTOS\include\deprecated_definitions.h
+rtosdemo configuration\port.o: ..\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h
+rtosdemo configuration\port.o: ..\FreeRTOS\include\mpu_wrappers.h
+rtosdemo configuration\port.o: ..\FreeRTOS\include\task.h
+rtosdemo configuration\port.o: ..\FreeRTOS\include\list.h
